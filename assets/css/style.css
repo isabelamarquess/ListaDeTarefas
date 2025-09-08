@@ -1,5 +1,5 @@
 body{
-    background-image: url('/assets/img/planner-background-kr98w9oa8sxjxpni.jpg');
+    background-image: url('./assets/img/planner-background-kr98w9oa8sxjxpni.jpg');
     background-size: cover; /*para cobrir a teça inteira*/
     background-position: center; /*para centralizar a imagem*/
     margin: 0;
