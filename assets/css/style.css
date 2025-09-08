@@ -1,0 +1,108 @@
+body{
+    background-image: url('/assets/img/planner-background-kr98w9oa8sxjxpni.jpg');
+    background-size: cover; /*para cobrir a teça inteira*/
+    background-position: center; /*para centralizar a imagem*/
+    margin: 0;
+    padding: 0;
+}
+.container {
+   display: flex;
+   flex-direction: column; /* organiza em coluna*/
+   align-items: center;
+   justify-content: flex-start;
+   background-color: rgba(235, 224, 231, 0.658);
+   min-height: 400px;
+   padding: 20px;
+   border-radius: 8px;
+   width: 90%;
+   max-width: 700px;
+   margin: 40px auto;
+    
+}
+
+
+h1 {
+    font-size: 2.5rem;
+    font-family: cursive;
+    margin-bottom: 20px;
+}
+
+
+input {
+    height: 40px;
+    border-radius: 4px;
+    border: none;
+    font-size: 1rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    cursor: pointer;
+    width: 100%; /* ocupa todo o espaço disponível*/
+    max-width: 300px; /* para não passar de 300px*/
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+
+button {
+    height: 40px;
+    border-radius: 4px;
+    border: none;
+    font-size: 1rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    cursor: pointer;
+    background-color: fuchsia;
+    padding: 0 12px;
+    margin-left: 8px;
+    
+}
+
+li {
+    font-size: 1.2rem;
+    font-family: cursive;
+    padding: 10px;
+    list-style: none;
+    word-wrap: break-word; /*quebra a linha em telas pequenas*/
+
+   
+}
+
+.apagar {
+    background-color: fuchsia;
+    font-size: 0.9rem;
+    margin-left: 10px;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+
+
+ }
+
+ /*Para telas menores*/
+ @media (max-width: 768px) {
+    h1 {
+        font-size: 2rem;
+    }
+
+    .container {
+        width: 95%;
+        margin: 20px auto;
+    }
+
+    input {
+        max-width: 100%;
+    }
+
+    li {
+        font-size: 1rem;
+    }
+
+ }
+
+ @media (max-width: 480px) {
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    button {
+        width: auto;
+        font-size: 0.8rem;
+    }
+ }
